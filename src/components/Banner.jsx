@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from '../assets/img/Portfolio.png';
+import portfolioImage from '../assets/img/Portfolio.png'
 import { useState, useEffect } from "react";
 
 const Banner = () => {
@@ -50,7 +50,7 @@ const Banner = () => {
                         <p>Hi there! My name is Parnian, a passionate and aspiring front-end developer with a creative approach to bringing web designs to life. I’ve recently embarked on an exciting journey in the world of web development, fueled by my enthusiasm for design, coding, and crafting user-friendly digital experiences.</p>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} className="mePng" />
+                        <img src={portfolioImage} className="mePng" />
                     </Col>
                 </Row>
             </Container>

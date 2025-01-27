@@ -2,7 +2,6 @@ import React from 'react';
 import { Container, Row, Col, Tab, Nav } from 'react-bootstrap';
 import TrackVisibility from 'react-on-screen';
 import { ProjectsCard } from './ProjectsCard';
-import colorSharp2 from '../assets/img/color-Sharp2.png';
 import projImg1 from "../assets/img/CreditCard.jpg";
 import projImg2 from "../assets/img/Alien.jpg";
 import projImg3 from "../assets/img/Shop.jpg";
@@ -117,7 +116,7 @@ export default function Projects() {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right"></img>
     </section>
   )
 }
