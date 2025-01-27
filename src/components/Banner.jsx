@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import portfolioImage from '../assets/img/Portfolio.png'
+import portfolioImage from '../assets/img/portfolio.png'
 import { useState, useEffect } from "react";
 
 const Banner = () => {
